@@ -1,0 +1,17 @@
+{
+    "name": "welfare-chaincode",
+    "version": "1.0.0",
+    "description": "Chaincode for the Conditional Welfare Platform",
+    "main": "index.js",
+    "engines": {
+        "node": ">=16",
+        "npm": ">=8"
+    },
+    "scripts": {
+        "start": "fabric-chaincode-node start"
+    },
+    "dependencies": {
+        "fabric-contract-api": "~2.5.4",
+        "fabric-shim": "~2.5.4"
+    }
+}
